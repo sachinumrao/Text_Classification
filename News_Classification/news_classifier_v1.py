@@ -19,7 +19,7 @@ NGRAMS = 2
 BATCH_SIZE = 16
 
 # load dataset
-os.mkdir('./.data')
+#os.mkdir('./.data')
 train_dataset, test_dataset = text_classification.DATASETS['AG_NEWS'](
     root='./.data', ngrams=NGRAMS, vocab=None)
 
